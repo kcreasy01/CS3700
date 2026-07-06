@@ -1,0 +1,59 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="xex99ZyMU6tK78Re2X9_">
+    <mxGraphModel dx="799" dy="1526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JBr_SZugJvEcjJg1dsJC-1" parent="1" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
+          <mxGeometry height="70" width="70" x="110" y="-1020" as="geometry" />
+        </mxCell>
+        <mxCell id="JBr_SZugJvEcjJg1dsJC-5" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="Prompt user&lt;div&gt;for choice&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="95" y="-880" as="geometry" />
+        </mxCell>
+        <mxCell id="JBr_SZugJvEcjJg1dsJC-7" edge="1" parent="1" source="JBr_SZugJvEcjJg1dsJC-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="-700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBr_SZugJvEcjJg1dsJC-13" edge="1" parent="1" source="JBr_SZugJvEcjJg1dsJC-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="-550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBr_SZugJvEcjJg1dsJC-6" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="choice == 1?" vertex="1">
+          <mxGeometry height="100" width="100" x="95" y="-750" as="geometry" />
+        </mxCell>
+        <mxCell id="JBr_SZugJvEcjJg1dsJC-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Yes" vertex="1">
+          <mxGeometry height="30" width="60" x="200" y="-740" as="geometry" />
+        </mxCell>
+        <mxCell id="JBr_SZugJvEcjJg1dsJC-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="show list of available books" vertex="1">
+          <mxGeometry height="60" width="120" x="300" y="-730" as="geometry" />
+        </mxCell>
+        <mxCell id="JBr_SZugJvEcjJg1dsJC-11" edge="1" parent="1" source="JBr_SZugJvEcjJg1dsJC-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.96;entryY=0.506;entryDx=0;entryDy=0;entryPerimeter=0;" target="JBr_SZugJvEcjJg1dsJC-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="-850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBr_SZugJvEcjJg1dsJC-12" edge="1" parent="1" source="JBr_SZugJvEcjJg1dsJC-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="JBr_SZugJvEcjJg1dsJC-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JBr_SZugJvEcjJg1dsJC-15" edge="1" parent="1" source="JBr_SZugJvEcjJg1dsJC-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="-510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBr_SZugJvEcjJg1dsJC-14" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="choice == 2?" vertex="1">
+          <mxGeometry height="80" width="80" x="105" y="-550" as="geometry" />
+        </mxCell>
+        <mxCell id="JBr_SZugJvEcjJg1dsJC-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No" vertex="1">
+          <mxGeometry height="30" width="60" x="80" y="-630" as="geometry" />
+        </mxCell>
+        <mxCell id="JBr_SZugJvEcjJg1dsJC-18" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Prompt for book to check out" vertex="1">
+          <mxGeometry height="60" width="130" x="280" y="-540" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

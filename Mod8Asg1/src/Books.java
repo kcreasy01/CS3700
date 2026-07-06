@@ -1,4 +1,8 @@
-package PACKAGE_NAME;
+public class Books extends Library {
+    public static String bookTitle = "";
 
-public class Books {
+    private String getBookTitle() {
+
+        return (bookTitle);
+    }
 }
