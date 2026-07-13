@@ -5,17 +5,15 @@ import static java.lang.IO.println;
 
 
 
+
+
+
+
 void main() {
     {
-        Library LMS = new Library();
-        // Call function to present menu
-        LMS.showMenu();
+        Library lms = new Library();
 
-
-
-
-
-
+        Books collection = new Books();
+        lms.showMenu();
     }
 }
-
